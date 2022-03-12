@@ -28,7 +28,6 @@ import { ToastrService } from './common/toastr.service';
     NavBarComponent,
   ],
   imports: [BrowserModule, RouterModule.forRoot(appRoutes)],
-
   providers: [
     EventResolveListService,
     EventRouteActivator,
