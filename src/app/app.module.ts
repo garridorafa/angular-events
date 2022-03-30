@@ -15,6 +15,7 @@ import {
 } from './events';
 import { NavBarComponent } from './nav/nav-bar.component';
 import { appRoutes } from './routes';
+import { AuthService } from './user/auth.service';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { appRoutes } from './routes';
   ],
   imports: [BrowserModule, RouterModule.forRoot(appRoutes)],
   providers: [
+    AuthService,
     EventResolveListService,
     EventRouteActivator,
     EventService,
