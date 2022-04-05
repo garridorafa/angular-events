@@ -10,6 +10,7 @@ import { Error404Component } from './errors/404.component';
 import {
   CreateEventComponent,
   CreateSessionComponent,
+  DurationPipe,
   EventResolveListService,
   EventRouteActivator,
   EventsDetailsComponent,
@@ -34,6 +35,7 @@ import { AuthService } from './user/auth.service';
     EventsThumbnailsComponent,
     NavBarComponent,
     SessionListComponent,
+    DurationPipe,
   ],
   imports: [
     BrowserModule,
