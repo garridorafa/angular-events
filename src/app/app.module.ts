@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
+import { CollapsibleWellComponent } from './common/collapsible-well.component';
 import { ToastrService } from './common/toastr.service';
 import { Error404Component } from './errors/404.component';
 import {
@@ -24,6 +25,7 @@ import { AuthService } from './user/auth.service';
 @NgModule({
   declarations: [
     AppComponent,
+    CollapsibleWellComponent,
     CreateEventComponent,
     CreateSessionComponent,
     Error404Component,
